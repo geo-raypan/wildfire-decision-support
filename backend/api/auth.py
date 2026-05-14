@@ -29,7 +29,7 @@ auth_bp = Blueprint('auth', __name__)
 SECRET_KEY          = os.getenv('SECRET_KEY', 'wildfire-secret-key-change-in-production')
 GH_CLIENT_ID        = os.getenv('GITHUB_OAUTH_CLIENT_ID', '')
 GH_CLIENT_SECRET    = os.getenv('GITHUB_OAUTH_CLIENT_SECRET', '')
-ADMIN_GITHUB_LOGIN  = os.getenv('ADMIN_GITHUB_LOGIN', 'RayPan-UC')
+ADMIN_GITHUB_LOGIN  = os.getenv('ADMIN_GITHUB_LOGIN', 'geo-raypan')
 FRONTEND_URL        = os.getenv('FRONTEND_URL', 'https://wildfire-ai.com')
 
 GH_AUTHORIZE_URL = 'https://github.com/login/oauth/authorize'

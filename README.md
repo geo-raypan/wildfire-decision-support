@@ -126,7 +126,7 @@ AI Agents (on-demand)                                                         â”
 ### Installation
 
 ```bash
-git clone https://github.com/RayPan-UC/wildfire-decision-support.git
+git clone https://github.com/geo-raypan/wildfire-decision-support.git
 cd wildfire-decision-support
 
 pip install -r requirements.txt

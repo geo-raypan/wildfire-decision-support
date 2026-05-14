@@ -29,7 +29,7 @@ echo "==> Updating code on server..."
 $SSH "
   set -e
   if [ ! -d '${REMOTE_DIR}/.git' ]; then
-    git clone https://github.com/RayPan-UC/wildfire-decision-support.git ${REMOTE_DIR}
+    git clone https://github.com/geo-raypan/wildfire-decision-support.git ${REMOTE_DIR}
   else
     cd ${REMOTE_DIR} && git pull --ff-only
   fi

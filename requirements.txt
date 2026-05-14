@@ -21,4 +21,4 @@ xarray
 netCDF4
 dask
 osmnx
-git+https://github.com/RayPan-UC/wildfire-hotspot-prediction.git
+git+https://github.com/geo-raypan/wildfire-hotspot-prediction.git
